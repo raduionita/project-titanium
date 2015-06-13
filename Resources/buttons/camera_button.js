@@ -8,9 +8,9 @@ function _buildCameraButton() {
     });
     
     var image = Ti.UI.createView({
-        backgroundImage : 'images/camera-512.png',
+        backgroundImage : 'images/camera.png',
         top : 6,
-        width : 50,
+        width : 50, 
         height : 50,
         right : 10,
         animRunning : false,
