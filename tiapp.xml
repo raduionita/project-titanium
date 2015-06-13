@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.project.titanium.fashion</id>
+    <id>project_titanium.com</id>
     <name>test</name>
     <version>1.0</version>
-    <publisher>sudo</publisher>
+    <publisher>stoica.catalin</publisher>
     <url>http://</url>
-    <description>some description here...</description>
-    <copyright>2015 by sudo</copyright>
+    <description/>
+    <copyright>2015 by stoica.catalin</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
