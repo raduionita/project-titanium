@@ -1,5 +1,5 @@
 
-6/13/2015, 4:32:13 PM
+6/13/2015, 6:10:39 PM
 
 Operating System
   Name                        = Microsoft Windows 8.1 Pro
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = android
 
 Command
-  C:\Program Files\nodejs\node.exe C:\Users\stoica.catalin\.appcelerator\install\4.0.2\package\node_modules\appc-cli-titanium\node_modules\titanium\bin\titanium build --platform android --log-level trace --sdk 4.0.0.GA --project-dir C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium --target emulator --android-sdk C:\android-sdk-win --device-id Google Nexus 5 - 5.0.0 - API 21 - 1080x1920 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 56506 --username stoicavalentincatalin@yahoo.com --password valentinst --plugin-paths C:\Users\stoica.catalin\.appcelerator\install\4.0.2\package\node_modules --config-file C:\Users\STOICA~1.CAT\AppData\Local\Temp\build-1434202323145.json --no-banner
+  C:\Program Files\nodejs\node.exe C:\Users\stoica.catalin\.appcelerator\install\4.0.2\package\node_modules\appc-cli-titanium\node_modules\titanium\bin\titanium build --platform android --log-level trace --sdk 4.0.0.GA --project-dir C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium --target emulator --android-sdk C:\android-sdk-win --device-id Google Nexus 5 - 5.0.0 - API 21 - 1080x1920 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 56506 --username stoicavalentincatalin@yahoo.com --password valentinst --plugin-paths C:\Users\stoica.catalin\.appcelerator\install\4.0.2\package\node_modules --config-file C:\Users\STOICA~1.CAT\AppData\Local\Temp\build-1434208230140.json --no-banner
 
 [DEBUG]  Detecting modules in C:\ProgramData\Application Data\Titanium\modules
 [DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1
@@ -69,6 +69,7 @@ Command
 [DEBUG]  Ignoring C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\android
 [WARN]   Overwriting file C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\images\flower.jpg
 [DEBUG]  Copying C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\images\flower.jpg => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\images\flower.jpg
+[WARN]   Overwriting file C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\images\model.png
 [DEBUG]  Copying C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\images\model.png => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\images\model.png
 [WARN]   Overwriting file C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\images\Purple-Menu.png
 [DEBUG]  Copying C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\images\Purple-Menu.png => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\images\Purple-Menu.png
@@ -102,6 +103,7 @@ Command
 [INFO]   Processing JavaScript files
 [DEBUG]  Copying C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\app.js => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\app.js
 [DEBUG]  Copying C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\cart_button.js => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\cart_button.js
+[DEBUG]  Copying C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\drag.js => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\drag.js
 [DEBUG]  Copying C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\menu_button.js => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\menu_button.js
 [DEBUG]  Copying C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\Resources\share_button.js => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\share_button.js
 [DEBUG]  Copying C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.8\ti.cloud.js => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\Resources\ti.cloud.js
@@ -146,44 +148,44 @@ Command
 [DEBUG]  Unknown namespace ui.ios, skipping
 [INFO]   Writing C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets\app.json
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-analytics.res.zip
-[DEBUG]  Copying C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1jf3hm9\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Copying C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-5pjno4\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-android.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1v82075\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-14w0try\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-app.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1edupvc\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-1u4uctl\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-filesystem.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1vcx8sw\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-uun2qf\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-media.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-12jep5v\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-1dufwbw\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-locale.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-spfjh1\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-1vkhh5q\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-network.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1kwaswj\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-p3sz66\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-xml.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1wyh0ha\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-1b15hll\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-utils.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1n6v451\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-78s8go\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-geolocation.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-8j2rdo\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-143akqd\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-accelerometer.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-14x3bd1\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-1fc55en\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-contacts.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-xeuu8o\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-1a3yegk\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-map.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-wxasab\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-1trhhdt\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-gesture.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1wfbzti\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-6w7udb\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-calendar.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1nfiq84\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-1oundka\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-platform.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1776q8\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-2giwgy\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.0.0.GA\android\modules\titanium-database.res.zip
-[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1rb5x6x\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-17fbg20\res\values\strings.xml => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [DEBUG]  Removing old file: C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\AndroidManifest.xml
 [INFO]   Generating i18n files
 [DEBUG]  Merging en strings => C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\strings.xml
 [INFO]   Generating C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res\values\theme.xml
-[INFO]   Packaging application: C:\android-sdk-win\build-tools\22.0.1\aapt.exe "package" "-f" "-m" "-J" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\gen" "-M" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\AndroidManifest.xml" "-A" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets" "-S" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res" "-I" "C:\android-sdk-win\platforms\android-22\android.jar" "-F" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1b4ukcu/res" "-S" "C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-13216-1gks9hu/res"
+[INFO]   Packaging application: C:\android-sdk-win\build-tools\22.0.1\aapt.exe "package" "-f" "-m" "-J" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\gen" "-M" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\AndroidManifest.xml" "-A" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\assets" "-S" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\res" "-I" "C:\android-sdk-win\platforms\android-22\android.jar" "-F" "C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-q08tir/res" "-S" "C:\Users\STOICA~1.CAT\AppData\Local\Temp\115513-15348-j6dahw/res"
 [INFO]   Creating unsigned apk
 [DEBUG]  Processing C:\Users\stoica.catalin\Documents\Appcelerator_Studio_Workspace\project-titanium\build\android\bin\app.ap_
 [DEBUG]  Deflating AndroidManifest.xml
@@ -193,6 +195,7 @@ Command
 [DEBUG]  Deflating assets/Resources/app.js
 [DEBUG]  Adding assets/Resources/appicon.png
 [DEBUG]  Deflating assets/Resources/cart_button.js
+[DEBUG]  Deflating assets/Resources/drag.js
 [DEBUG]  Adding assets/Resources/images/Purple-Menu.png
 [DEBUG]  Adding assets/Resources/images/Purple-Shop.png
 [DEBUG]  Adding assets/Resources/images/Purple-Transfer.png
@@ -553,5 +556,5 @@ Command
 [INFO]   App successfully installed
 [INFO]   Starting app: project_titanium.com/.TestActivity
 [DEBUG]  Trying to start the app...
-[INFO]   Application pid: 11361
-[INFO]   Project built successfully in 31s 687ms
+[INFO]   Application pid: 13590
+[INFO]   Project built successfully in 31s 902ms
