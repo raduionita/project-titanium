@@ -72,6 +72,7 @@ function _buildMenuButton() {
     });
     
     image.addEventListener('click', function(e) {
+        image.animate(animDown);
         Ti.App.fireEvent('open.menuLayout');
     });
     

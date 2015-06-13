@@ -73,6 +73,7 @@ function _buildBuyButton() {
     
     image.addEventListener('click', function(e) {
         alert('buy');
+        image.animate(animDown);
     });
     
     image.addEventListener('touchstart', function(e) {

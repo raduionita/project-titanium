@@ -42,10 +42,10 @@ function _buildMainLayout() {
     var onece = false;
     var face = Ti.UI.createImageView({
         //defaultImage: 'images/italy.png',
-        //backgroundColor : '#AAAAAAAA',
+        backgroundColor : '#AAAAAAAA',
         width  : 38,
         height : 48,
-        top    : 111,
+        bottom : 7,
         left   : 155,
         name : 'face'
     });
@@ -53,10 +53,10 @@ function _buildMainLayout() {
     Ti.App.addEventListener('open.camera', function(e) {
         if(onece) {
             onece = false;
-            return;
+            return; 
         }
          
-        Titanium.Media.showCamera({ 
+        Ti.Media.showCamera({
             success: function(e) {
                 Ti.API.info("open.camera::success");
                 if(e.mediaType == Ti.Media.MEDIA_TYPE_PHOTO) {
@@ -77,6 +77,7 @@ function _buildMainLayout() {
                 }
             }
         });
+        Ti.Media.switchCamera(Ti.Media.CAMERA_FRONT);
     });
     
     layout.add(head);

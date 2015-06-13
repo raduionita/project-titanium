@@ -70,6 +70,7 @@ function _buildCameraButton() {
     });
     
     image.addEventListener('click', function(e) {
+        image.animate(animDown);
         Ti.App.fireEvent('open.camera');
     });
     image.addEventListener('touchstart', function(e) {
