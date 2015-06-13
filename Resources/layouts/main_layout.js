@@ -17,7 +17,10 @@ function _buildMainLayout() {
     var menu_button = require('buttons/menu_button'); 
     layout.add(menu_button);
     
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    var camera_button = require('buttons/camera_button'); 
+    layout.add(camera_button);
+    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     function swipe(e) {
         if(e.direction == 'left') {
@@ -31,10 +34,51 @@ function _buildMainLayout() {
         left: 0,
         top: 0,
         width: Ti.UI.FILL,
-        height: '20%',
+        height: '28%',
         backgroundColor: 'transparent'
     });
     head.addEventListener('swipe', swipe);
+    
+    var onece = false;
+    var face = Ti.UI.createImageView({
+        //defaultImage: 'images/italy.png',
+        //backgroundColor : '#AAAAAAAA',
+        width  : 38,
+        height : 48,
+        top    : 111,
+        left   : 155,
+        name : 'face'
+    });
+    head.add(face);
+    Ti.App.addEventListener('open.camera', function(e) {
+        if(onece) {
+            onece = false;
+            return;
+        }
+         
+        Titanium.Media.showCamera({ 
+            success: function(e) {
+                Ti.API.info("open.camera::success");
+                if(e.mediaType == Ti.Media.MEDIA_TYPE_PHOTO) {
+                    face.image = e.media;
+                    face.backgroundColor = '#AAAAAAAA';
+                    onece = true;
+                }
+            }, 
+            cancel: function(e) {
+                
+            },
+            error: function(e) {
+                Ti.APP.info("open.camera::error");
+                if (e.code == Titanium.Media.NO_CAMERA) {
+                    alert("Use on a device with a front camera!");
+                } else {
+                    alert('Error: '+ e.code);
+                }
+            }
+        });
+    });
+    
     layout.add(head);
     
     var body = Ti.UI.createView({

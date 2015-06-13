@@ -12,7 +12,7 @@ function _buildMenuLayout() {
         left  : 0, 
         width : '70%',
         height: Ti.UI.FILL,
-        backgroundColor: 'silver',
+        backgroundColor: 'black',
         layout: 'vertical'
     });
     
