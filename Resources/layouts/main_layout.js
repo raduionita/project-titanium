@@ -4,7 +4,8 @@ function _buildMainLayout() {
         left  : 0,
         width : Ti.UI.FILL,
         height: Ti.UI.FILL,
-        backgroundColor: '#FFF'
+        backgroundColor:'white',
+        backgroundImage: 'images/model.png'
     });
     
     var buy_button = require('buttons/buy_button'); 
@@ -31,18 +32,17 @@ function _buildMainLayout() {
         top: 0,
         width: Ti.UI.FILL,
         height: '20%',
-        backgroundColor: '#0F0'
+        backgroundColor: 'transparent'
     });
     head.addEventListener('swipe', swipe);
     layout.add(head);
-    
     
     var body = Ti.UI.createView({
         left  : 0,
         top   : '20%',
         width : Ti.UI.FILL,
         height: '40%',
-        backgroundColor: '#00F'
+        backgroundColor: 'transparent'
     });
     body.addEventListener('swipe', swipe);
     layout.add(body);
@@ -52,7 +52,7 @@ function _buildMainLayout() {
         top   : '60%',
         width : Ti.UI.FILL,
         height: '40%',
-        backgroundColor: '#000'
+        backgroundColor: 'transparent'
     });
     feet.addEventListener('swipe', swipe);
     layout.add(feet);
