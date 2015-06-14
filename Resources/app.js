@@ -10,3 +10,5 @@ if (Ti.Platform.osname == 'android'){
 }
 
 main.open();
+
+//Ti.App.fireEvent('set.category', { category: 'dress', slot: 0 }); // defaults

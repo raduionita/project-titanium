@@ -10,16 +10,71 @@ function _buildMenuLayout() {
     var content = Ti.UI.createView({
         top   : 0,
         left  : 0, 
-        width : '70%',
+        width : '20%',
         height: Ti.UI.FILL,
-        backgroundColor: 'black',
-        layout: 'vertical'
+        backgroundColor: '#AAAAAAFF'
     });
+    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    var i = 1;
+    var products = require('database/products');
+    var c1view = Ti.UI.createView({
+        top   : 65 + 80 * (i++),
+        left  : '15%', 
+        width : 50,
+        height: 50,
+        backgroundImage: 'images/iconset/women/dress.png'
+    });
+    c1view.addEventListener('click', function(e) {
+        //Ti.App.fireEvent('set.category', { category: 'dress', slot: 0 });
+        layout.animate({ left: -355 });
+    }); 
+    var c2view = Ti.UI.createView({
+        top   : 65 + 80 * (i++),
+        left  : '15%', 
+        width : 50, 
+        height: 50,
+        backgroundImage: 'images/iconset/women/top.png'
+    });
+    c2view.addEventListener('click', function(e) {
+        //Ti.App.fireEvent('set.category', { category: 'top', slot: 0 });
+        layout.animate({ left: -355 });
+    });
+    var c3view = Ti.UI.createView({
+        top   : 65 + 80 * (i++),
+        left  : '15%', 
+        width : 50,
+        height: 50,
+        backgroundImage: 'images/iconset/women/pants.png'
+    });
+    c3view.addEventListener('click', function(e) {
+        //Ti.App.fireEvent('set.category', { category: 'pants', slot: 1 });
+        layout.animate({ left: -355 });
+    });
+    var c4view = Ti.UI.createView({
+        top   : 65 + 80 * (i++),
+        left  : '15%', 
+        width : 50,
+        height: 50,
+        backgroundImage: 'images/iconset/women/shoes.png'
+    });
+    c4view.addEventListener('click', function(e) {
+        //Ti.App.fireEvent('set.category', { category: 'shoes', slot: 2 });
+        layout.animate({ left: -355 });
+    });
+    
+    content.add(c1view);
+    content.add(c2view);
+    content.add(c3view);
+    content.add(c4view);
+    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     layout.add(content);
     
-    //////////////////////////////////////////////
-    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+     
     var opened = false;
     var preventDefault = false;
     
